@@ -18,14 +18,14 @@ export default function BadSEOPage() {
       
       <Header variant="bad" />
       
-      <main>
+      <div>
         {/* No id for skip navigation target */}
         <Hero variant="bad" />
         <Features variant="bad" />
         <Testimonials variant="bad" />
         <FAQ variant="bad" />
         <CTA variant="bad" />
-      </main>
+      </div>
       
       <Footer variant="bad" />
       
