@@ -25,7 +25,7 @@ export const metadata: Metadata = {
   // Canonical URL
   metadataBase: new URL('https://nextjs-seo-demo.vercel.app/good'),
   alternates: {
-    canonical: '/',
+    canonical: 'https://nextjs-seo-demo.vercel.app/good',
   },
   
   // Open Graph
@@ -35,7 +35,7 @@ export const metadata: Metadata = {
     siteName: 'TechFlow',
     title: 'TechFlow | Cloud Project Management Software for Teams',
     description: 'Manage tasks, track projects, and collaborate effectively. Start your 30-day free trial.',
-    url: 'https://nextjs-seo-demo.vercel.app/good',
+    url: 'https://nextjs-seo-demo.vercel.app/',
     images: [
       {
         url: 'images/og-image.png',
