@@ -13,6 +13,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
+      <head><script src="https://analytics.ahrefs.com/analytics.js" data-key="UUCucujdNwHvf7Jxg6mx+w" async></script></head>
       <body>{children}</body>
     </html>
   )
