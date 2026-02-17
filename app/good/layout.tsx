@@ -53,7 +53,7 @@ export const metadata: Metadata = {
     creator: '@techflow',
     title: 'TechFlow | Cloud Project Management Software',
     description: 'Manage tasks, track projects, collaborate effectively. 30-day free trial.',
-    images: ['images/og-image.png'],
+    images: ['/images/og-image.png'],
   },
   
   // Robots
