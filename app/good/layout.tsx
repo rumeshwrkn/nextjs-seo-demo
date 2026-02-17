@@ -94,12 +94,12 @@ export default function GoodSEOLayout({
       <WebSiteSchema />
       
       {/* Skip navigation for accessibility */}
-      <a 
+      {/* <a 
         href="#main-content" 
         className="skip-nav bg-primary text-white px-4 py-2 focus:outline-none"
       >
         Skip to main content
-      </a>
+      </a> */}
       
       {children}
     </>

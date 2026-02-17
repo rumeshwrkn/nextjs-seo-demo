@@ -52,11 +52,11 @@ export function Header({ variant }: HeaderProps) {
           aria-label="Main navigation"
         >
           {/* Descriptive link text */}
-          <Link href="/good/features" className="text-gray-700 hover:text-primary font-medium">Features</Link>
-          <Link href="/good/pricing" className="text-gray-700 hover:text-primary font-medium">Pricing</Link>
-          <Link href="/good/case-studies" className="text-gray-700 hover:text-primary font-medium">Case Studies</Link>
-          <Link href="/good/support" className="text-gray-700 hover:text-primary font-medium">Support</Link>
-          <Link href="/good/free-trial" className="bg-primary hover:bg-primary-dark text-white px-6 py-3 rounded-lg font-semibold">
+          <Link href="/good/test-link" className="text-gray-700 hover:text-primary font-medium">Features</Link>
+          <Link href="/good/test-link" className="text-gray-700 hover:text-primary font-medium">Pricing</Link>
+          <Link href="/good/test-link" className="text-gray-700 hover:text-primary font-medium">Case Studies</Link>
+          <Link href="/good/test-link" className="text-gray-700 hover:text-primary font-medium">Support</Link>
+          <Link href="/good/test-link" className="bg-primary hover:bg-primary-dark text-white px-6 py-3 rounded-lg font-semibold">
             Start Free Trial
           </Link>
         </nav>

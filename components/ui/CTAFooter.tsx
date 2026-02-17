@@ -111,30 +111,30 @@ export function Footer({ variant }: FooterProps) {
           <div>
             <h2 className="text-sm font-semibold uppercase tracking-wider mb-5">Product</h2>
             <ul className="space-y-3">
-              <li><Link href="/good/features" className="text-gray-400 hover:text-white">Features Overview</Link></li>
-              <li><Link href="/good/pricing" className="text-gray-400 hover:text-white">Pricing Plans</Link></li>
-              <li><Link href="/good/integrations" className="text-gray-400 hover:text-white">Integrations</Link></li>
-              <li><Link href="/good/changelog" className="text-gray-400 hover:text-white">Product Updates</Link></li>
+              <li><Link href="/good/test-link" className="text-gray-400 hover:text-white">Features Overview</Link></li>
+              <li><Link href="/good/test-link" className="text-gray-400 hover:text-white">Pricing Plans</Link></li>
+              <li><Link href="/good/test-link" className="text-gray-400 hover:text-white">Integrations</Link></li>
+              <li><Link href="/good/test-link" className="text-gray-400 hover:text-white">Product Updates</Link></li>
             </ul>
           </div>
           
           <div>
             <h2 className="text-sm font-semibold uppercase tracking-wider mb-5">Resources</h2>
             <ul className="space-y-3">
-              <li><Link href="/good/case-studies" className="text-gray-400 hover:text-white">Case Studies</Link></li>
-              <li><Link href="/good/blog" className="text-gray-400 hover:text-white">Blog</Link></li>
-              <li><Link href="/good/help" className="text-gray-400 hover:text-white">Help Center</Link></li>
-              <li><Link href="/good/api-docs" className="text-gray-400 hover:text-white">API Documentation</Link></li>
+              <li><Link href="/good/test-link" className="text-gray-400 hover:text-white">Case Studies</Link></li>
+              <li><Link href="/good/test-link" className="text-gray-400 hover:text-white">Blog</Link></li>
+              <li><Link href="/good/test-link" className="text-gray-400 hover:text-white">Help Center</Link></li>
+              <li><Link href="/good/test-link" className="text-gray-400 hover:text-white">API Documentation</Link></li>
             </ul>
           </div>
           
           <div>
             <h2 className="text-sm font-semibold uppercase tracking-wider mb-5">Company</h2>
             <ul className="space-y-3">
-              <li><Link href="/good/about" className="text-gray-400 hover:text-white">About Us</Link></li>
-              <li><Link href="/good/careers" className="text-gray-400 hover:text-white">Careers</Link></li>
-              <li><Link href="/good/contact" className="text-gray-400 hover:text-white">Contact</Link></li>
-              <li><Link href="/good/press" className="text-gray-400 hover:text-white">Press Kit</Link></li>
+              <li><Link href="/good/test-link" className="text-gray-400 hover:text-white">About Us</Link></li>
+              <li><Link href="/good/test-link" className="text-gray-400 hover:text-white">Careers</Link></li>
+              <li><Link href="/good/test-link" className="text-gray-400 hover:text-white">Contact</Link></li>
+              <li><Link href="/good/test-link" className="text-gray-400 hover:text-white">Press Kit</Link></li>
             </ul>
           </div>
         </div>
@@ -143,8 +143,8 @@ export function Footer({ variant }: FooterProps) {
           <p>© 2026 TechFlow Inc. All rights reserved.</p>
           {/* Includes sitemap link */}
           <nav className="mt-4 md:mt-0 space-x-6" aria-label="Footer legal navigation">
-            <Link href="/good/privacy" className="hover:text-white">Privacy Policy</Link>
-            <Link href="/good/terms" className="hover:text-white">Terms of Service</Link>
+            <Link href="/good/test-link" className="hover:text-white">Privacy Policy</Link>
+            <Link href="/good/test-link" className="hover:text-white">Terms of Service</Link>
             <Link href="/sitemap.xml" className="hover:text-white">Sitemap</Link>
           </nav>
         </div>
