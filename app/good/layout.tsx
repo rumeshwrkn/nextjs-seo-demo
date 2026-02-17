@@ -38,7 +38,7 @@ export const metadata: Metadata = {
     url: 'https://nextjs-seo-demo.vercel.app/',
     images: [
       {
-        url: '/images/og-image.png',
+        url: 'https://nextjs-seo-demo.vercel.app/images/og-image.png',
         width: 1200,
         height: 630,
         alt: 'TechFlow - Project Management Software',
@@ -53,7 +53,7 @@ export const metadata: Metadata = {
     creator: '@techflow',
     title: 'TechFlow | Cloud Project Management Software',
     description: 'Manage tasks, track projects, collaborate effectively. 30-day free trial.',
-    images: ['/images/og-image.png'],
+    images: ['https://nextjs-seo-demo.vercel.app/images/og-image.png'],
   },
   
   // Robots
