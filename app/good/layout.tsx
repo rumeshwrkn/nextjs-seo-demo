@@ -14,7 +14,7 @@ export const metadata: Metadata = {
   },
   
   // Compelling meta description with CTA
-  description: 'TechFlow is cloud-based project management software that helps teams manage tasks, track projects, and collaborate effectively. Start your 30-day free trial. Trusted by 500+ companies.',
+  description: 'TechFlow is cloud-based project management software that helps teams manage tasks, track projects, and collaborate effectively. Start your 30-day free trial.',
   
   // Keywords (less important now, but still useful)
   keywords: ['project management', 'task management', 'team collaboration', 'workflow automation', 'kanban', 'gantt chart'],
@@ -35,9 +35,10 @@ export const metadata: Metadata = {
     siteName: 'TechFlow',
     title: 'TechFlow | Cloud Project Management Software for Teams',
     description: 'Manage tasks, track projects, and collaborate effectively. Start your 30-day free trial.',
+    url: 'https://techflow.com',
     images: [
       {
-        url: '/images/og-image.jpg',
+        url: 'images/og-image.png',
         width: 1200,
         height: 630,
         alt: 'TechFlow - Project Management Software',
@@ -52,7 +53,7 @@ export const metadata: Metadata = {
     creator: '@techflow',
     title: 'TechFlow | Cloud Project Management Software',
     description: 'Manage tasks, track projects, collaborate effectively. 30-day free trial.',
-    images: ['/images/og-image.jpg'],
+    images: ['images/og-image.png'],
   },
   
   // Robots

@@ -24,7 +24,7 @@ export function OrganizationSchema() {
     logo: {
       '@type': 'ImageObject',
       '@id': 'https://techflow.com/#logo',
-      url: 'https://techflow.com/images/logo.png',
+      url: 'images/pg.png',
       width: 600,
       height: 60,
     },

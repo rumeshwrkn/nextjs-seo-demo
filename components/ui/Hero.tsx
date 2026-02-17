@@ -10,7 +10,7 @@ export function Hero({ variant }: HeroProps) {
       <section className="py-20 bg-gradient-to-br from-indigo-50 to-indigo-100">
         <div className="max-w-6xl mx-auto px-5 grid md:grid-cols-2 gap-16 items-center">
           <div>
-            {/* Multiple H1 tags */}
+            {/* ❌ Multiple H1 tags */}
             <h1 className="text-4xl md:text-5xl font-bold text-gray-900 leading-tight mb-4">
               Streamline Your Team&apos;s Workflow
             </h1>
@@ -18,7 +18,7 @@ export function Hero({ variant }: HeroProps) {
               The Best Solution for Modern Teams
             </h1>
             
-            {/* Thin, vague content */}
+            {/* ❌ Thin, vague content */}
             <p className="text-lg text-gray-600 mb-8 leading-relaxed">
               Our product is amazing and helps teams work better. It&apos;s really great and you should try it.
             </p>
@@ -47,7 +47,7 @@ export function Hero({ variant }: HeroProps) {
             {/* No alt text, no dimensions */}
             {/* eslint-disable-next-line @next/next/no-img-element */}
             <img 
-              src="https://placehold.co/600x400/png"
+              src="/images/banner-image.jpg"
               className="rounded-xl shadow-2xl w-full"
             />
           </div>
@@ -79,7 +79,7 @@ export function Hero({ variant }: HeroProps) {
           >
             Start Free Trial
           </a>
-          
+        
           {/* Trust signals */}
           <div className="flex gap-10 mt-10">
             <div className="text-center">
@@ -100,7 +100,7 @@ export function Hero({ variant }: HeroProps) {
         <div>
           {/* Next.js Image with proper alt, dimensions, priority */}
           <Image
-            src="https://placehold.co/600x400/png"
+            src="/images/banner-image.jpg"
             alt="TechFlow dashboard showing task lists, project progress charts, and team collaboration features"
             width={600}
             height={400}

@@ -18,7 +18,7 @@ export function Features({ variant }: FeaturesProps) {
           <div className="grid md:grid-cols-3 gap-8">
             <article className="bg-white border border-gray-200 rounded-xl p-8 hover:shadow-xl transition-shadow">
               <div className="w-14 h-14 bg-primary rounded-xl flex items-center justify-center text-2xl mb-6">
-                📋
+                <img src='images/gift.svg' />
               </div>
               {/* Non-descriptive heading */}
               <h5 className="text-xl font-bold text-gray-900 mb-3">Feature One</h5>
@@ -34,7 +34,7 @@ export function Features({ variant }: FeaturesProps) {
             
             <article className="bg-white border border-gray-200 rounded-xl p-8 hover:shadow-xl transition-shadow">
               <div className="w-14 h-14 bg-primary rounded-xl flex items-center justify-center text-2xl mb-6">
-                📊
+                <img src='images/gift.svg' />
               </div>
               <h5 className="text-xl font-bold text-gray-900 mb-3">Feature Two</h5>
               <p className="text-gray-600 leading-relaxed mb-4">
@@ -47,7 +47,7 @@ export function Features({ variant }: FeaturesProps) {
             
             <article className="bg-white border border-gray-200 rounded-xl p-8 hover:shadow-xl transition-shadow">
               <div className="w-14 h-14 bg-primary rounded-xl flex items-center justify-center text-2xl mb-6">
-                💬
+                <img src='images/gift.svg' />
               </div>
               <h5 className="text-xl font-bold text-gray-900 mb-3">Feature Three</h5>
               <p className="text-gray-600 leading-relaxed mb-4">
