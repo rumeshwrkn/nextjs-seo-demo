@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Skip navigation link */
+.skip-nav {
+  position: absolute;
+  top: -40px;
+  left: 0;
+  z-index: 100;
+  transition: top 0.3s;
+}
+
+.skip-nav:focus {
+  top: 0;
+}
