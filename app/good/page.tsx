@@ -21,7 +21,7 @@ export default function GoodSEOPage() {
       />
       
       {/* Badge to identify this is the good version */}
-      <div className="bg-green-500 text-white text-center py-2 text-sm">
+      <div className="bg-green-600 text-white text-center py-2 text-sm">
         GOOD SEO Example - <Link href="/" className="underline">Back to Home</Link> | <Link href="/bad" className="underline">View Bad SEO</Link>
       </div>
       
