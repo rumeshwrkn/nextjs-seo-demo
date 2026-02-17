@@ -7,7 +7,7 @@ type FeaturesProps = {
 export function Features({ variant }: FeaturesProps) {
   if (variant === 'bad') {
     return (
-      <section className="py-20">
+      <div className="py-20">
         <div className="max-w-6xl mx-auto px-5">
           <div className="text-center mb-16">
             {/* Skipped heading level (should be H2, not H4) */}
@@ -59,7 +59,7 @@ export function Features({ variant }: FeaturesProps) {
             </article>
           </div>
         </div>
-      </section>
+      </div>
     )
   }
 
@@ -67,7 +67,7 @@ export function Features({ variant }: FeaturesProps) {
     <section className="py-20" aria-labelledby="features-heading">
       <div className="max-w-6xl mx-auto px-5">
         <div className="text-center mb-16">
-          {/* ✅ Proper heading hierarchy (H2 after H1) */}
+          {/* Proper heading hierarchy (H2 after H1) */}
           <h2 id="features-heading" className="text-3xl font-bold text-gray-900 mb-4">Key Features</h2>
           <p className="text-gray-600 max-w-2xl mx-auto">Everything you need to manage your work efficiently</p>
         </div>
@@ -77,15 +77,15 @@ export function Features({ variant }: FeaturesProps) {
             <div className="w-14 h-14 bg-primary rounded-xl flex items-center justify-center text-2xl mb-6" aria-hidden="true">
               📋
             </div>
-            {/* ✅ Descriptive heading (H3 under H2) */}
+            {/* Descriptive heading (H3 under H2) */}
             <h3 className="text-xl font-bold text-gray-900 mb-3">Task Management</h3>
-            {/* ✅ Substantial, valuable content */}
+            {/* Substantial, valuable content */}
             <p className="text-gray-600 leading-relaxed mb-4">
               Organize tasks with drag-and-drop simplicity. Set priorities, deadlines, 
               and assignees with one click. Integrates with Google Calendar and Slack 
               for automated notifications.
             </p>
-            {/* ✅ Descriptive internal link */}
+            {/* Descriptive internal link */}
             <Link href="/good/features/task-management" className="text-primary font-semibold hover:underline">
               Explore task management features →
             </Link>

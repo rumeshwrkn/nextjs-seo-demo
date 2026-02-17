@@ -20,7 +20,7 @@ const faqs = [
 export function FAQ({ variant }: FAQProps) {
   if (variant === 'bad') {
     return (
-      <section className="py-20">
+      <div className="py-20">
         <div className="max-w-3xl mx-auto px-5">
           <div className="text-center mb-16">
             {/* Wrong heading level */}
@@ -37,7 +37,7 @@ export function FAQ({ variant }: FAQProps) {
             ))}
           </div>
         </div>
-      </section>
+      </div>
     )
   }
 

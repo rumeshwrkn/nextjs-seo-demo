@@ -10,7 +10,7 @@ export function Header({ variant }: HeaderProps) {
   if (variant === 'bad') {
     return (
       // BAD: No semantic role, no aria-label
-      <header className="bg-white border-b border-gray-200 sticky top-0 z-50">
+      <div className="bg-white border-b border-gray-200 sticky top-0 z-50">
         <div className="max-w-6xl mx-auto px-5 py-4 flex justify-between items-center">
           {/* No aria-label on logo link */}
           <Link href="/bad" className="text-2xl font-bold text-primary">
@@ -18,24 +18,24 @@ export function Header({ variant }: HeaderProps) {
           </Link>
           
           {/* No nav role or aria-label */}
-          <nav className="hidden md:flex items-center gap-8">
+          <div className="hidden md:flex items-center gap-8">
             {/* Non-descriptive link text */}
-            <Link href="#" className="text-gray-700 hover:text-primary font-medium">Click Here</Link>
-            <Link href="#" className="text-gray-700 hover:text-primary font-medium">Learn More</Link>
-            <Link href="#" className="text-gray-700 hover:text-primary font-medium">Info</Link>
-            <Link href="#" className="text-gray-700 hover:text-primary font-medium">Stuff</Link>
-            <Link href="#" className="bg-primary hover:bg-primary-dark text-white px-6 py-3 rounded-lg font-semibold">
+            <a href="#" className="text-gray-700 hover:text-primary font-medium">Click Here</a>
+            <a href="#" className="text-gray-700 hover:text-primary font-medium">Learn More</a>
+            <a href="#" className="text-gray-700 hover:text-primary font-medium">Info</a>
+            <a href="#" className="text-gray-700 hover:text-primary font-medium">Stuff</a>
+            <a href="#" className="bg-primary hover:bg-primary-dark text-white px-6 py-3 rounded-lg font-semibold">
               Get Started
-            </Link>
-          </nav>
+            </a>
+          </div>
         </div>
-      </header>
+      </div>
     )
   }
 
   return (
     // GOOD: Proper semantic markup
-    <header className="bg-white border-b border-gray-200 sticky top-0 z-50" role="banner">
+    <header className="bg-white border-b border-gray-200 sticky top-0 z-50">
       <div className="max-w-6xl mx-auto px-5 py-4 flex justify-between items-center">
         {/* Descriptive aria-label */}
         <Link 
@@ -48,8 +48,7 @@ export function Header({ variant }: HeaderProps) {
         
         {/* Navigation with role and aria-label */}
         <nav 
-          className="hidden md:flex items-center gap-8" 
-          role="navigation" 
+          className="hidden md:flex items-center gap-8"
           aria-label="Main navigation"
         >
           {/* Descriptive link text */}

@@ -35,7 +35,7 @@ export function Footer({ variant }: FooterProps) {
   if (variant === 'bad') {
     return (
       // No role="contentinfo"
-      <footer className="bg-gray-900 text-white py-16">
+      <div className="bg-gray-900 text-white py-16">
         <div className="max-w-6xl mx-auto px-5">
           <div className="grid md:grid-cols-4 gap-12 mb-12">
             <div>
@@ -82,19 +82,19 @@ export function Footer({ variant }: FooterProps) {
           <div className="border-t border-gray-700 pt-8 flex flex-col md:flex-row justify-between items-center text-gray-400 text-sm">
             <p>© 2026 TechFlow Inc. All rights reserved.</p>
             {/* No sitemap link */}
-            <nav className="mt-4 md:mt-0 space-x-6">
+            <div className="mt-4 md:mt-0 space-x-6">
               <a href="#" className="hover:text-white">Privacy</a>
               <a href="#" className="hover:text-white">Terms</a>
-            </nav>
+            </div>
           </div>
         </div>
-      </footer>
+      </div>
     )
   }
 
   return (
     // Semantic footer with role
-    <footer className="bg-gray-900 text-white py-16" role="contentinfo">
+    <footer className="bg-gray-900 text-white py-16">
       <div className="max-w-6xl mx-auto px-5">
         <div className="grid md:grid-cols-4 gap-12 mb-12">
           <div>
@@ -109,7 +109,7 @@ export function Footer({ variant }: FooterProps) {
           
           {/* Descriptive link text */}
           <div>
-            <h4 className="text-sm font-semibold uppercase tracking-wider mb-5">Product</h4>
+            <h2 className="text-sm font-semibold uppercase tracking-wider mb-5">Product</h2>
             <ul className="space-y-3">
               <li><Link href="/good/features" className="text-gray-400 hover:text-white">Features Overview</Link></li>
               <li><Link href="/good/pricing" className="text-gray-400 hover:text-white">Pricing Plans</Link></li>
@@ -119,7 +119,7 @@ export function Footer({ variant }: FooterProps) {
           </div>
           
           <div>
-            <h4 className="text-sm font-semibold uppercase tracking-wider mb-5">Resources</h4>
+            <h2 className="text-sm font-semibold uppercase tracking-wider mb-5">Resources</h2>
             <ul className="space-y-3">
               <li><Link href="/good/case-studies" className="text-gray-400 hover:text-white">Case Studies</Link></li>
               <li><Link href="/good/blog" className="text-gray-400 hover:text-white">Blog</Link></li>
@@ -129,7 +129,7 @@ export function Footer({ variant }: FooterProps) {
           </div>
           
           <div>
-            <h4 className="text-sm font-semibold uppercase tracking-wider mb-5">Company</h4>
+            <h2 className="text-sm font-semibold uppercase tracking-wider mb-5">Company</h2>
             <ul className="space-y-3">
               <li><Link href="/good/about" className="text-gray-400 hover:text-white">About Us</Link></li>
               <li><Link href="/good/careers" className="text-gray-400 hover:text-white">Careers</Link></li>

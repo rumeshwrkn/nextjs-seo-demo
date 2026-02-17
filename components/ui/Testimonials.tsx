@@ -53,7 +53,7 @@ function BadTestimonials() {
   }, [])
 
   return (
-    <section className="py-20 bg-gray-50">
+    <div className="py-20 bg-gray-50">
       <div className="max-w-6xl mx-auto px-5">
         <div className="text-center mb-16">
           <h4 className="text-3xl font-bold text-gray-900 mb-4">What Our Customers Say</h4>
@@ -84,7 +84,7 @@ function BadTestimonials() {
           )}
         </div>
       </div>
-    </section>
+    </div>
   )
 }
 
@@ -105,9 +105,9 @@ function GoodTestimonials() {
           {testimonials.map((item, index) => (
             <article key={index} className="bg-white rounded-xl p-8 shadow-sm">
               <blockquote>
-                <p className="text-gray-700 leading-relaxed mb-6">
+                <h3 className="text-gray-700 leading-relaxed mb-6">
                   &ldquo;{item.quote}&rdquo;
-                </p>
+                </h3>
               </blockquote>
               <div className="flex items-center gap-4">
                 <div className={`w-12 h-12 ${item.color} rounded-full flex items-center justify-center text-white font-bold`}>
