@@ -38,7 +38,7 @@ export const metadata: Metadata = {
     url: 'https://nextjs-seo-demo.vercel.app/',
     images: [
       {
-        url: 'images/og-image.png',
+        url: '/images/og-image.png',
         width: 1200,
         height: 630,
         alt: 'TechFlow - Project Management Software',
