@@ -16,7 +16,7 @@ export default function GoodSEOPage() {
       {/* Breadcrumb Schema */}
       <BreadcrumbSchema 
         items={[
-          { name: 'Home', url: 'https://techflow.com/' }
+          { name: 'Home', url: 'https://nextjs-seo-demo.vercel.app/' }
         ]} 
       />
       
