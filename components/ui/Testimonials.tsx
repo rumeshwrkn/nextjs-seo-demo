@@ -20,10 +20,10 @@ const testimonials = [
     name: "Sarah Mitchell",
     title: "Product Manager, StartupXYZ",
     initials: "SM",
-    color: "bg-green-500"
+    color: "bg-orange-700"
   },
   {
-    quote: "We scaled from 10 to 100 employees with TechFlow. The platform grew with us seamlessly. Highly recommended!",
+    quote: "We scaled from 10 to 100 employees with TechFlow. The platform grew with us seamlessly. Highly recommended the team!",
     name: "Michael Kim",
     title: "CEO, GrowthLabs",
     initials: "MK",

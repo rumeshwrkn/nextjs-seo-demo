@@ -23,7 +23,7 @@ export const metadata: Metadata = {
   authors: [{ name: 'TechFlow Team' }],
   
   // Canonical URL
-  metadataBase: new URL('https://nextjs-seo-demo.vercel.app/'),
+  metadataBase: new URL('https://nextjs-seo-demo.vercel.app/good'),
   alternates: {
     canonical: '/',
   },
@@ -35,7 +35,7 @@ export const metadata: Metadata = {
     siteName: 'TechFlow',
     title: 'TechFlow | Cloud Project Management Software for Teams',
     description: 'Manage tasks, track projects, and collaborate effectively. Start your 30-day free trial.',
-    url: 'https://nextjs-seo-demo.vercel.app/',
+    url: 'https://nextjs-seo-demo.vercel.app/good',
     images: [
       {
         url: 'images/og-image.png',
