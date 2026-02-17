@@ -23,7 +23,7 @@ export const metadata: Metadata = {
   authors: [{ name: 'TechFlow Team' }],
   
   // Canonical URL
-  metadataBase: new URL('https://nextjs-seo-demo.vercel.app/good'),
+  metadataBase: new URL('https://nextjs-seo-demo.vercel.app/'),
   alternates: {
     canonical: 'https://nextjs-seo-demo.vercel.app/',
   },
