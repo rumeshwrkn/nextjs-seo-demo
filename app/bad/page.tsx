@@ -12,9 +12,9 @@ export default function BadSEOPage() {
       {/* No breadcrumb navigation */}
       
       {/* Badge to identify this is the bad version */}
-      <div className="bg-red-500 text-white text-center py-2 text-sm">
+      {/* <div className="bg-red-500 text-white text-center py-2 text-sm">
         BAD SEO Example - <Link href="/" className="underline">Back to Home</Link> | <Link href="/good" className="underline">View Good SEO</Link>
-      </div>
+      </div> */}
       
       <Header variant="bad" />
       

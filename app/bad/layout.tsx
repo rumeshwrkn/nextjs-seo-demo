@@ -19,6 +19,7 @@ export const metadata: Metadata = {
   
   // No robots directive
   // robots: { ... },
+  robots: 'nofollow, noindex'
 }
 
 export default function BadSEOLayout({

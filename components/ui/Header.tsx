@@ -19,13 +19,12 @@ export function Header({ variant }: HeaderProps) {
           
           {/* No nav role or aria-label */}
           <div className="hidden md:flex items-center gap-8">
-            {/* Non-descriptive link text */}
-            <a href="#" className="text-gray-700 hover:text-primary font-medium">Click Here</a>
-            <a href="#" className="text-gray-700 hover:text-primary font-medium">Learn More</a>
-            <a href="#" className="text-gray-700 hover:text-primary font-medium">Info</a>
-            <a href="#" className="text-gray-700 hover:text-primary font-medium">Stuff</a>
+            <a href="" className="text-gray-700 hover:text-primary font-medium">Features</a>
+            <a href="#" className="text-gray-700 hover:text-primary font-medium">Pricing</a>
+            <a href="#" className="text-gray-700 hover:text-primary font-medium">Case Studies</a>
+            <a href="#" className="text-gray-700 hover:text-primary font-medium">Support</a>
             <a href="#" className="bg-primary hover:bg-primary-dark text-white px-6 py-3 rounded-lg font-semibold">
-              Get Started
+              Start Free Trial
             </a>
           </div>
         </div>

@@ -11,19 +11,19 @@ export function Hero({ variant }: HeroProps) {
         <div className="max-w-6xl mx-auto px-5 grid md:grid-cols-2 gap-16 items-center">
           <div>
             {/* Multiple H1 tags */}
-            <h1 className="text-4xl md:text-5xl font-bold text-gray-900 leading-tight mb-4">
+            <div className="text-4xl md:text-5xl font-bold text-gray-900 leading-tight mb-4">
               Streamline Your Team&apos;s Workflow
-            </h1>
-            <h1 className="text-2xl font-bold text-gray-700 mb-6">
+            </div>
+            <h2 className="text-2xl font-bold text-gray-700 mb-6">
               The Best Solution for Modern Teams
-            </h1>
+            </h2>
             
             {/* Thin, vague content */}
             <p className="text-lg text-gray-600 mb-8 leading-relaxed">
               Our product is amazing and helps teams work better. It&apos;s really great and you should try it.
             </p>
             
-            <a href="#" className="inline-block bg-primary hover:bg-primary-dark text-white px-8 py-4 rounded-lg font-semibold text-lg">
+            <a href="/bad/does-not-exist" className="inline-block bg-primary hover:bg-primary-dark text-white px-8 py-4 rounded-lg font-semibold text-lg">
               Start Free Trial
             </a>
             
@@ -47,7 +47,7 @@ export function Hero({ variant }: HeroProps) {
             {/* No alt text, no dimensions */}
             {/* eslint-disable-next-line @next/next/no-img-element */}
             <img 
-              src="/images/banner-image.jpg"
+              src="/images/bad/banner-bad.jpg"
               className="rounded-xl shadow-2xl w-full"
             />
           </div>
