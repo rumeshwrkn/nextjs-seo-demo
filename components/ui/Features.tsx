@@ -94,7 +94,7 @@ export function Features({ variant }: FeaturesProps) {
               for automated notifications.
             </p>
             {/* Descriptive internal link */}
-            <Link href="/good/features/task-management" className="text-primary font-semibold hover:underline">
+            <Link href="/good/test-link" className="text-primary font-semibold hover:underline">
               Explore task management features →
             </Link>
           </article>
@@ -115,7 +115,7 @@ export function Features({ variant }: FeaturesProps) {
               Visualize resource allocation and identify bottlenecks before they
               impact delivery.
             </p>
-            <Link href="/good/features/project-tracking" className="text-primary font-semibold hover:underline">
+            <Link href="/good/test-link" className="text-primary font-semibold hover:underline">
               Discover project tracking tools →
             </Link>
           </article>
@@ -137,7 +137,7 @@ export function Features({ variant }: FeaturesProps) {
               and @mentions. Powerful search finds past discussions instantly.
               Never lose important information again.
             </p>
-            <Link href="/good/features/collaboration" className="text-primary font-semibold hover:underline">
+            <Link href="/good/test-link" className="text-primary font-semibold hover:underline">
               See collaboration features →
             </Link>
           </article>
