@@ -73,7 +73,7 @@ export function Hero({ variant }: HeroProps) {
           </p>
           
           <a 
-            href="/good/free-trial" 
+            href="/good/test-link" 
             className="inline-block bg-primary hover:bg-primary-dark text-white px-8 py-4 rounded-lg font-semibold text-lg"
             data-track="hero-cta"
           >

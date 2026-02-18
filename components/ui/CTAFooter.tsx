@@ -17,7 +17,7 @@ export function CTA({ variant }: CTAProps) {
         )}
         <p className="text-xl opacity-90 mb-8">Start your 30-day free trial today. No credit card required.</p>
         <a 
-          href={variant === 'bad' ? '#' : '/good/free-trial'} 
+          href={variant === 'bad' ? '#' : '/good/test-link'} 
           className="inline-block bg-white text-primary hover:bg-gray-100 px-10 py-4 rounded-lg font-semibold text-lg transition-colors"
         >
           Start Free Trial
