@@ -16,8 +16,9 @@ export function CTA({ variant }: CTAProps) {
           <h2 className="text-3xl md:text-4xl font-bold mb-4">Ready to Get Started?</h2>
         )}
         <p className="text-xl opacity-90 mb-8">Start your 30-day free trial today. No credit card required.</p>
-        <a 
-          href={variant === 'bad' ? '#' : '/good/test-link'} 
+        <a
+          href={variant === 'bad' ? '#' : '/good/test-link'}
+          style={variant === 'bad' ? { animation: 'pulse-cta 1.5s ease-in-out infinite' } : {}}
           className="inline-block bg-white text-primary hover:bg-gray-100 px-10 py-4 rounded-lg font-semibold text-lg transition-colors"
         >
           Start Free Trial
@@ -46,7 +47,7 @@ export function Footer({ variant }: FooterProps) {
                 San Francisco, CA 94102
               </p>
             </div>
-            
+
             {/* Non-descriptive link text */}
             <div>
               <h4 className="text-sm font-semibold uppercase tracking-wider mb-5">Product</h4>
@@ -57,7 +58,7 @@ export function Footer({ variant }: FooterProps) {
                 <li><a href="#" className="text-gray-400 hover:text-white">Link 4</a></li>
               </ul>
             </div>
-            
+
             <div>
               <h4 className="text-sm font-semibold uppercase tracking-wider mb-5">Resources</h4>
               <ul className="space-y-3">
@@ -67,7 +68,7 @@ export function Footer({ variant }: FooterProps) {
                 <li><a href="#" className="text-gray-400 hover:text-white">Page D</a></li>
               </ul>
             </div>
-            
+
             <div>
               <h4 className="text-sm font-semibold uppercase tracking-wider mb-5">Company</h4>
               <ul className="space-y-3">
@@ -78,7 +79,7 @@ export function Footer({ variant }: FooterProps) {
               </ul>
             </div>
           </div>
-          
+
           <div className="border-t border-gray-700 pt-8 flex flex-col md:flex-row justify-between items-center text-gray-400 text-sm">
             <p>© 2026 TechFlow Inc. All rights reserved.</p>
             {/* No sitemap link */}
@@ -106,7 +107,7 @@ export function Footer({ variant }: FooterProps) {
               <a href="tel:+18001234567" className="hover:text-white">1-800-123-4567</a>
             </p>
           </div>
-          
+
           {/* Descriptive link text */}
           <div>
             <h2 className="text-sm font-semibold uppercase tracking-wider mb-5">Product</h2>
@@ -117,7 +118,7 @@ export function Footer({ variant }: FooterProps) {
               <li><Link href="/good/test-link" className="text-gray-400 hover:text-white">Product Updates</Link></li>
             </ul>
           </div>
-          
+
           <div>
             <h2 className="text-sm font-semibold uppercase tracking-wider mb-5">Resources</h2>
             <ul className="space-y-3">
@@ -127,7 +128,7 @@ export function Footer({ variant }: FooterProps) {
               <li><Link href="/good/test-link" className="text-gray-400 hover:text-white">API Documentation</Link></li>
             </ul>
           </div>
-          
+
           <div>
             <h2 className="text-sm font-semibold uppercase tracking-wider mb-5">Company</h2>
             <ul className="space-y-3">
@@ -138,7 +139,7 @@ export function Footer({ variant }: FooterProps) {
             </ul>
           </div>
         </div>
-        
+
         <div className="border-t border-gray-700 pt-8 flex flex-col md:flex-row justify-between items-center text-gray-400 text-sm">
           <p>© 2026 TechFlow Inc. All rights reserved.</p>
           {/* Includes sitemap link */}
