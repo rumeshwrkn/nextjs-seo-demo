@@ -28,9 +28,9 @@ export default function GoodSEOPage() {
       <Header variant="good" />
       
       {/* Breadcrumb navigation (visible) */}
-      <nav className="max-w-6xl mx-auto px-5 py-3 text-sm text-gray-500" aria-label="Breadcrumb">
+      {/* <nav className="max-w-6xl mx-auto px-5 py-3 text-sm text-gray-500" aria-label="Breadcrumb">
         <Link href="/good" className="text-primary hover:underline">Home</Link>
-      </nav>
+      </nav> */}
       
       <main id="main-content">
         {/* ID for skip navigation target */}
