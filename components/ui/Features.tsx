@@ -6,6 +6,8 @@ type FeaturesProps = {
 }
 
 export function Features({ variant }: FeaturesProps) {
+    const good_url_alias = process.env.NEXT_PUBLIC_GOOD_LINK_ALIAS;
+
   if (variant === 'bad') {
     return (
       <div className="py-20">
@@ -115,7 +117,7 @@ export function Features({ variant }: FeaturesProps) {
               Visualize resource allocation and identify bottlenecks before they
               impact delivery.
             </p>
-            <Link href="/good/test-link" className="text-primary font-semibold hover:underline">
+            <Link href={`/${good_url_alias}/test-link`} className="text-primary font-semibold hover:underline">
               Discover project tracking tools →
             </Link>
           </article>
@@ -137,7 +139,7 @@ export function Features({ variant }: FeaturesProps) {
               and @mentions. Powerful search finds past discussions instantly.
               Never lose important information again.
             </p>
-            <Link href="/good/test-link" className="text-primary font-semibold hover:underline">
+            <Link href={`/${good_url_alias}/test-link`} className="text-primary font-semibold hover:underline">
               See collaboration features →
             </Link>
           </article>

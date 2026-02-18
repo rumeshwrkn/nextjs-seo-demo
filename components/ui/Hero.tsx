@@ -5,6 +5,8 @@ type HeroProps = {
 }
 
 export function Hero({ variant }: HeroProps) {
+  const good_url_alias = process.env.NEXT_PUBLIC_GOOD_LINK_ALIAS;
+
   if (variant === 'bad') {
     return (
       <div className="py-20 bg-gradient-to-br from-indigo-50 to-indigo-100">
@@ -17,16 +19,16 @@ export function Hero({ variant }: HeroProps) {
             <h2 className="text-2xl font-bold text-gray-700 mb-6">
               The Best Solution for Modern Teams
             </h2>
-            
+
             {/* Thin, vague content */}
             <p className="text-lg text-gray-600 mb-8 leading-relaxed">
               Our product is amazing and helps teams work better. It&apos;s really great and you should try it.
             </p>
-            
+
             <a href="/bad/does-not-exist" className="inline-block bg-primary hover:bg-primary-dark text-white px-8 py-4 rounded-lg font-semibold text-lg">
               Start Free Trial
             </a>
-            
+
             <div className="flex gap-10 mt-10">
               <div className="text-center">
                 <div className="text-3xl font-bold text-primary">500+</div>
@@ -42,11 +44,11 @@ export function Hero({ variant }: HeroProps) {
               </div>
             </div>
           </div>
-          
+
           <div>
             {/* No alt text, no dimensions */}
             {/* eslint-disable-next-line @next/next/no-img-element */}
-            <img 
+            <img
               src="/images/bad/banner-bad.jpg"
               className="rounded-xl shadow-2xl w-full"
             />
@@ -64,22 +66,22 @@ export function Hero({ variant }: HeroProps) {
           <h1 className="text-4xl md:text-5xl font-bold text-gray-900 leading-tight mb-6">
             Streamline Your Team&apos;s Workflow with Cloud Project Management
           </h1>
-          
+
           {/* Substantial, keyword-rich content */}
           <p className="text-lg text-gray-600 mb-8 leading-relaxed">
-            TechFlow is cloud-based project management software that combines task management, 
-            project tracking, and team collaboration in one powerful platform. 
+            TechFlow is cloud-based project management software that combines task management,
+            project tracking, and team collaboration in one powerful platform.
             Trusted by 500+ companies to boost productivity by an average of 32%.
           </p>
-          
-          <a 
-            href="/good/test-link" 
+
+          <a
+            href={`/${good_url_alias}/test-link`}
             className="inline-block bg-primary hover:bg-primary-dark text-white px-8 py-4 rounded-lg font-semibold text-lg"
             data-track="hero-cta"
           >
             Start Free Trial
           </a>
-        
+
           {/* Trust signals */}
           <div className="flex gap-10 mt-10">
             <div className="text-center">
@@ -96,7 +98,7 @@ export function Hero({ variant }: HeroProps) {
             </div>
           </div>
         </div>
-        
+
         <div>
           {/* Next.js Image with proper alt, dimensions, priority */}
           <Image

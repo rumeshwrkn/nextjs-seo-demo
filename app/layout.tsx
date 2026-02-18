@@ -2,7 +2,7 @@ import './globals.css'
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'Next.js SEO Demo',
+  title: 'Next.js Site Demo',
   description: 'Compare Good vs Bad SEO implementation in Next.js',
 }
 
