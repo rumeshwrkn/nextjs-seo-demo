@@ -25,7 +25,7 @@ export const metadata: Metadata = {
   // Canonical URL
   metadataBase: new URL('https://nextjs-seo-demo.vercel.app/good/'),
   alternates: {
-    canonical: './',
+    canonical: '',
   },
   
   // Open Graph
