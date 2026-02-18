@@ -100,7 +100,7 @@ export function Hero({ variant }: HeroProps) {
         <div>
           {/* Next.js Image with proper alt, dimensions, priority */}
           <Image
-            src="/images/banner-image.jpg"
+            src="/images/good/banner-good.svg"
             alt="TechFlow dashboard showing task lists, project progress charts, and team collaboration features"
             width={600}
             height={400}
