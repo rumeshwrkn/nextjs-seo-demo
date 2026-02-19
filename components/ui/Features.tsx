@@ -6,17 +6,47 @@ type FeaturesProps = {
 }
 
 export function Features({ variant }: FeaturesProps) {
-    const good_url_alias = process.env.NEXT_PUBLIC_GOOD_LINK_ALIAS;
+  const good_url_alias = process.env.NEXT_PUBLIC_GOOD_LINK_ALIAS;
 
   if (variant === 'bad') {
     return (
       <div className="py-20">
         <div className="max-w-6xl mx-auto px-5">
-          <div className="text-center mb-16">
-            {/* Skipped heading level (should be H2, not H4) */}
+          {/* <div className="text-center mb-16"> */}
+          {/* Skipped heading level (should be H2, not H4) */}
+          {/* <h1 className="text-3xl font-bold text-gray-900 mb-4">Key Features</h1> */}
+          {/* <p className="text-gray-600 max-w-2xl mx-auto">Everything you need to manage your work</p> */}
+          {/* <div className="text-center mb-16"> */}
+            {/* <span className="text-sm font-semibold tracking-widest text-indigo-500 uppercase mb-3 block">
+                What we offer
+              </span> */}
+            {/* <h1 className="text-3xl font-bold text-gray-900 mb-4 relative inline-block">
+              Key Features
+              <span className="absolute -bottom-2 left-1/2 -translate-x-1/2 w-16 h-1 bg-gradient-to-r from-indigo-500 to-purple-500 rounded-full" />
+            </h1>
+            <p className="text-gray-600 max-w-2xl mx-auto mt-6">
+              Everything you need to manage your work
+            </p>
+          </div> */}
+
+          <div className="text-center mb-16 relative">
+            {/* Decorative background blob */}
+            <div className="absolute inset-0 flex items-center justify-center -z-10">
+              <div className="w-72 h-24 bg-indigo-100 rounded-full blur-3xl opacity-60" />
+            </div>
+
+            <div className="inline-flex items-center gap-2 bg-white border border-indigo-100 shadow-sm rounded-full px-4 py-1.5 mb-5">
+              <span className="w-2 h-2 rounded-full bg-indigo-500 animate-pulse" />
+              <span className="text-xs font-medium text-indigo-600 tracking-wide uppercase">Features</span>
+            </div>
+
             <h1 className="text-3xl font-bold text-gray-900 mb-4">Key Features</h1>
-            <p className="text-gray-600 max-w-2xl mx-auto">Everything you need to manage your work</p>
+            <p className="text-gray-600 max-w-2xl mx-auto">
+              Everything you need to manage your work
+            </p>
           </div>
+
+          {/* </div> */}
 
           <div className="grid md:grid-cols-3 gap-8">
             <article className="bg-white border border-gray-200 rounded-xl p-8 hover:shadow-xl transition-shadow">

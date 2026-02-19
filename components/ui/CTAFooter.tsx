@@ -7,24 +7,23 @@ type CTAProps = {
 export function CTA({ variant }: CTAProps) {
 
   return (
-    <section className="py-20  bg-primary text-white text-center">      
-      <div className="max-w-4xl mx-auto px-5">
-        {variant === 'bad' ? (
-          // Wrong heading level
-          <h4 className="text-3xl md:text-4xl font-bold mb-4">Ready to Get Started?</h4>
-        ) : (
-          // Proper H2
-          <h2 className="text-3xl md:text-4xl font-bold mb-4">Ready to Get Started?</h2>
-        )}
-        <p className="text-xl opacity-90 mb-8">Start your 30-day free trial today. No credit card required.</p>
-        <a
-          href={variant === 'bad' ? '#' : '/good/test-link'}
-          style={variant === 'bad' ? { animation: 'pulse-cta 1.5s ease-in-out infinite' } : {}}
-          className="inline-block bg-white text-primary hover:bg-gray-100 px-10 py-4 rounded-lg font-semibold text-lg transition-colors"
-        >
-          Start Free Trial
-        </a>
-      </div>
+    <section className={`${variant === 'bad' ? "bg-violet-600" : "bg-primary"} py-20 text-white text-center`}>      <div className="max-w-4xl mx-auto px-5">
+      {variant === 'bad' ? (
+        // Wrong heading level
+        <h4 className="text-3xl md:text-4xl font-bold mb-4">Ready to Get Started?</h4>
+      ) : (
+        // Proper H2
+        <h2 className="text-3xl md:text-4xl font-bold mb-4">Ready to Get Started?</h2>
+      )}
+      <p className="text-xl opacity-90 mb-8">Start your 30-day free trial today. No credit card required.</p>
+      <a
+        href={variant === 'bad' ? '#' : '/good/test-link'}
+        style={variant === 'bad' ? { animation: 'pulse-cta 1.5s ease-in-out infinite' } : {}}
+        className="inline-block bg-white text-primary hover:bg-gray-100 px-10 py-4 rounded-lg font-semibold text-lg transition-colors"
+      >
+        Start Free Trial
+      </a>
+    </div>
     </section>
   )
 }
