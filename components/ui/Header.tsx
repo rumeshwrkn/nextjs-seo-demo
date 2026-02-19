@@ -15,7 +15,7 @@ export function Header({ variant }: HeaderProps) {
       <div className="bg-white border-b border-gray-200 sticky top-0 z-50">
         <div className="max-w-6xl mx-auto px-5 py-4 flex justify-between items-center">
           {/* No aria-label on logo link */}
-          <Link href="/bad" className="text-2xl font-bold text-primary">
+          <Link href="/site1" className="text-2xl font-bold text-primary">
             TechFlow
           </Link>
 
@@ -29,6 +29,9 @@ export function Header({ variant }: HeaderProps) {
               Start Free Trial
             </a>
           </div>
+          <svg className="block md:hidden w-4 h-4" fill="currentColor" viewBox="0 0 20 20">
+            <path d="M10 2L2 9h2v9h5v-5h2v5h5V9h2L10 2z" />
+          </svg>
         </div>
       </div>
     )
@@ -61,6 +64,9 @@ export function Header({ variant }: HeaderProps) {
             Start Free Trial
           </Link>
         </nav>
+        <svg className="block md:hidden w-4 h-4" fill="currentColor" viewBox="0 0 20 20">
+          <path d="M10 2L2 9h2v9h5v-5h2v5h5V9h2L10 2z" />
+        </svg>
       </div>
     </header>
   )

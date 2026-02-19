@@ -55,10 +55,10 @@ export function Footer({ variant }: FooterProps) {
             <div>
               <h4 className="text-sm font-semibold uppercase tracking-wider mb-5">Product</h4>
               <ul className="space-y-3">
-                <li><a href="#" className="text-gray-400 hover:text-white">Link 1</a></li>
-                <li><a href="#" className="text-gray-400 hover:text-white">Link 2</a></li>
-                <li><a href="#" className="text-gray-400 hover:text-white">Link 3</a></li>
-                <li><a href="#" className="text-gray-400 hover:text-white">Link 4</a></li>
+                <li><a href="#" className="text-gray-400 hover:text-white">Features Overview</a></li>
+                <li><a href="#" className="text-gray-400 hover:text-white">Pricing Plans</a></li>
+                <li><a href="#" className="text-gray-400 hover:text-white">Integrations</a></li>
+                <li><a href="#" className="text-gray-400 hover:text-white">Product Updates</a></li>
               </ul>
             </div>
 
