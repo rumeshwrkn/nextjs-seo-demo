@@ -9,7 +9,7 @@ export function Hero({ variant }: HeroProps) {
 
   if (variant === 'bad') {
     return (
-      <div className="py-20 bg-gradient-to-br from-indigo-50 to-indigo-100">
+      <div className="py-20 bg-gradient-to-br from-violet-50 to-violet-100">
         <div className="max-w-6xl mx-auto px-5 grid md:grid-cols-2 gap-16 items-center">
           <div>
             {/* Multiple H1 tags */}
@@ -25,21 +25,21 @@ export function Hero({ variant }: HeroProps) {
               Our product is amazing and helps teams work better. It&apos;s really great and you should try it.
             </p>
 
-            <a href="/bad/does-not-exist" className="inline-block bg-primary hover:bg-primary-dark text-white px-8 py-4 rounded-lg font-semibold text-lg">
+            <a href="/bad/does-not-exist" className="inline-block bg-violet-600 hover:bg-violet-700 text-white px-8 py-4 rounded-lg font-semibold text-lg">
               Start Free Trial
             </a>
 
             <div className="flex gap-10 mt-10">
               <div className="text-center">
-                <div className="text-3xl font-bold text-primary">500+</div>
+                <div className="text-3xl font-bold text-violet-600">500+</div>
                 <div className="text-sm text-gray-500">Companies</div>
               </div>
               <div className="text-center">
-                <div className="text-3xl font-bold text-primary">98%</div>
+                <div className="text-3xl font-bold text-violet-600">98%</div>
                 <div className="text-sm text-gray-500">Retention</div>
               </div>
               <div className="text-center">
-                <div className="text-3xl font-bold text-primary">4.6</div>
+                <div className="text-3xl font-bold text-violet-600">4.6</div>
                 <div className="text-sm text-gray-500">Rating</div>
               </div>
             </div>

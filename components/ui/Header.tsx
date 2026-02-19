@@ -15,17 +15,17 @@ export function Header({ variant }: HeaderProps) {
       <div className="bg-white border-b border-gray-200 sticky top-0 z-50">
         <div className="max-w-6xl mx-auto px-5 py-4 flex justify-between items-center">
           {/* No aria-label on logo link */}
-          <Link href="/site1" className="text-2xl font-bold text-primary">
+          <Link href="/site1" className="text-2xl font-bold text-violet-700">
             TechFlow
           </Link>
 
           {/* No nav role or aria-label */}
           <div className="hidden md:flex items-center gap-8">
-            <a href="" className="text-gray-700 hover:text-primary font-medium">Features</a>
-            <a href="#" className="text-gray-700 hover:text-primary font-medium">Pricing</a>
-            <a href="#" className="text-gray-700 hover:text-primary font-medium">Case Studies</a>
-            <a href="#" className="text-gray-700 hover:text-primary font-medium">Support</a>
-            <a href="#" className="bg-primary hover:bg-primary-dark text-white px-6 py-3 rounded-lg font-semibold">
+            <a href="" className="text-gray-700 hover:text-violet-700 font-medium">Features</a>
+            <a href="#" className="text-gray-700 hover:text-violet-700 font-medium">Pricing</a>
+            <a href="#" className="text-gray-700 hover:text-violet-700 font-medium">Case Studies</a>
+            <a href="#" className="text-gray-700 hover:text-violet-700 font-medium">Support</a>
+            <a href="#" className="bg-violet-700 hover:bg-violet-800 text-white px-6 py-3 rounded-lg font-semibold">
               Start Free Trial
             </a>
           </div>

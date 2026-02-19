@@ -13,21 +13,26 @@ const testimonials = [
     name: "John Davidson",
     title: "CTO, TechCorp Inc.",
     initials: "JD",
-    color: "bg-primary"
+    color: "bg-violet-500",
+    color2: "bg-primary",
+
   },
   {
     quote: "The best project management tool we've ever used. Simple to set up, powerful features, and excellent support team.",
     name: "Sarah Mitchell",
     title: "Product Manager, StartupXYZ",
     initials: "SM",
-    color: "bg-orange-700"
+    color: "bg-sky-500",
+    color2: "bg-green-600",
+
   },
   {
     quote: "We scaled from 10 to 100 employees with TechFlow. The platform grew with us seamlessly. Highly recommended the team!",
     name: "Michael Kim",
     title: "CEO, GrowthLabs",
     initials: "MK",
-    color: "bg-purple-600"
+    color: "bg-fuchsia-500",
+    color2: "bg-yellow-600",
   }
 ]
 
@@ -110,7 +115,7 @@ function GoodTestimonials() {
                 </h3>
               </blockquote>
               <div className="flex items-center gap-4">
-                <div className={`w-12 h-12 ${item.color} rounded-full flex items-center justify-center text-white font-bold`}>
+                <div className={`w-12 h-12 ${item.color2} rounded-full flex items-center justify-center text-white font-bold`}>
                   {item.initials}
                 </div>
                 <div>

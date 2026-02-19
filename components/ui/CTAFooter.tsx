@@ -7,7 +7,7 @@ type CTAProps = {
 export function CTA({ variant }: CTAProps) {
 
   return (
-    <section className="py-20 bg-primary text-white text-center">
+    <section className="py-20  bg-primary text-white text-center">      
       <div className="max-w-4xl mx-auto px-5">
         {variant === 'bad' ? (
           // Wrong heading level
